@@ -18,7 +18,7 @@ const Create = () => {
             console.log(error)
         }
     }
-    return <RecordForm entry={entry} onSubmit={onSubmit} />
+    return <RecordForm entry={entry} onSubmit={onSubmit} />;
 }
 
 export default Create;
